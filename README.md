@@ -42,15 +42,21 @@ Description
 
 Example JSON for POST request:
 
-{ \"title\": \"Title\", \"author\": \"Author\", \"year\": 2003,
-\"pages\": 100 }
+{
+"title": "Title",
+"author": "Author",
+"year": 2003,
+"pages": 100
+}
 
 ────────────────────────────────────────────── About tests
 
 In the book-management-tests/ folder, an attempt at autotesting was
 implemented using:
 
-\- mocha - chai - chai-http
+- mocha
+- chai
+ - chai-http
 
 Test file: test/book.test.js
 
@@ -63,9 +69,21 @@ Due to the ESM/CJS conflict and technical limitations, autotests did not
 work stably. All API routes were tested manually via Postman.
 ────────────────────────────────────────────── Project structure
 
-Backend_Project/ ├── book-management/ │ ├── app.js │ ├── routes/ │ ├──
-models/ │ ├── middleware/ │ └── \... ├── book-management-tests/ │ ├──
-app.js │ ├── test/ │ │ └── book.test.js │ └── \... └── README.md
+Backend_Project/
+├── book-management/
+│   ├── app.js
+│   ├── routes/
+│   ├── models/
+│   ├── middleware/
+│   └── ...
+├── book-management-tests/
+│   ├── app.js
+│   ├── test/
+│   │   └── book.test.js
+│   └── ...
+└── README.md
 
-────────────────────────────────────────────── Made by Nurassyl Ibraimov
+────────────────────────────────────────────── 
+Made by 
+Nurassyl Ibraimov
 Ali Bertys
