@@ -1,7 +1,7 @@
 Book Management API
 
 Node.js + Express REST API for managing books. Implemented work with
-MongoDB and basic routes for reading and adding books
+MongoDB and basic routes for reading and adding books 
 
 ────────────────────────────────────────────── Project Contents
 
